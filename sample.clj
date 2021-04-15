@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bb
 (require '[lread.status-line :as status])
 
 (status/line :head "Sample heading")

@@ -29,7 +29,7 @@ Add status-line to your `deps.edn` or `bb.edn` via `:git/url`.
 When I run the following script from my terminal:
 [source,clojure]
 ----
-#!/usr/bin/bash
+#!/usr/bin/env bb
 (require '[lread.status-line :as status])
 
 (status/line :head "Sample heading")
@@ -52,3 +52,8 @@ I see the following output:
 image::sample.png[]
 
 Your result may look a bit different depending on what colour schemes/themes you have configured in your terminal.
+
+== License
+Copyright © 2021 Lee Read, all rights reserved.
+
+Distributed under the Eclipse Public License, see LICENSE.
