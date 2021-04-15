@@ -135,5 +135,5 @@
 (defn die
   "Print error `msg` and exits with `exit-code`."
   [exit-code msg & fmt-args]
-  (line :error msg fmt-args)
+  (apply line :error msg fmt-args)
   (System/exit exit-code))
