@@ -1,3 +1,4 @@
 /.cpcache
 /.lsp
 /.calva
+/.clj-kondo/.cache
