@@ -13,4 +13,4 @@
 
 (status/line :detail "Some plain text detail")
 
-(status/die 1 "Something bad happened")
+(status/die 1 "Something %s happened" "bad")
