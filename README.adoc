@@ -1,5 +1,7 @@
 = Status Line
 
+https://babashka.org[image:https://raw.githubusercontent.com/babashka/babashka/master/logo/badge.svg[bb compatible]]
+
 == Status
 
 Alpha, initial release.
